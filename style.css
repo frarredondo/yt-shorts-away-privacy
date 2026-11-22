@@ -107,6 +107,10 @@ a {
 }
 
 .theme-toggle button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
   min-height: 44px;
   padding: 4px 12px;
   border: 1px solid transparent;
@@ -117,6 +121,10 @@ a {
   font-size: 0.875rem;
   font-weight: 650;
   cursor: pointer;
+}
+
+.theme-toggle svg {
+  flex: none;
 }
 
 .theme-toggle button:hover {
